@@ -4,13 +4,14 @@ import React from "react";
 //import components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import About from './components/About';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div>
-      <Header></Header>
       <main>
-        <h2>This is a test</h2>
+        <Landing></Landing>
       </main>
       <Footer></Footer>
     </div>
