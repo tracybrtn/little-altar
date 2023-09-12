@@ -1,38 +1,80 @@
-/*Import Font*/
+/*Import Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Staatliches&display=swap');
 
 
 :root {
-  --primary-color: #efe2e9;
+  --primary-color: #efe2ed;
   --secondary-color: #010c12;
   --tertiary-color: #eef4f5;
 }
 
-body {
+/*Make sure content takes up the whole screen*/
+html {
   margin: 0;
+  height: 100%;
+}
+
+body {
   font-family: 'Vollkorn', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   /*Background image settings*/
-  background-image: url('./assets/images/vertical-landing-screen.jpg');
+  background-image: url('./assets/images/vertical-landing-screen-watercolor-2.jpg');
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/*HOMEPAGE*/
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+}
+
+/*HEADER*/
+header {
+  margin-top: 1em;
+  margin-right: 1em;
+}
+header p {
+  text-align: right;
+}
+
+/*END OF HEADER */
+
 h2 {
   font-family: 'Staatliches', cursive;
   color: var(--primary-color);
+  opacity: 90%;
   text-align: center;
-  font-size: 2.5em
+  font-size: 4em
+}
+
+p {
+  color: var(--primary-color);
 }
 
 main {
-  margin: 2em;
+  margin: 2.5em;
 }
+
+/*LANDING PAGE*/
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 0em;
+}
+
+.citation {
+  font-size: 0.7em;
+}
+
 
 button {
   border: none;
@@ -43,7 +85,8 @@ button {
   background-color: var(--primary-color);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*END OF LANDING PAGE*/
+/*FOOTER*/
+footer p {
+  text-align: center;
 }

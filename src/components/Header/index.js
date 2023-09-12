@@ -3,7 +3,11 @@ import React from "react";
 function Header() {
   return(
     <header>
-      <h1>Tracy Burton Bravo</h1>
+      <div>
+        <nav>
+          <p>About</p>
+        </nav>
+      </div>
     </header>
   );
 }

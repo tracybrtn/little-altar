@@ -4,7 +4,8 @@ import React from "react"
 function Footer() {
   return(
     <footer>
-      Copyright 2023
+      <p>Copyright 2023</p>
+      <p>Github</p>
     </footer>
   )
 }

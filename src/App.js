@@ -9,8 +9,9 @@ import Landing from './components/Landing';
 
 function App() {
   return (
-    <div>
-      <main>
+    <div className="homepage">
+      <Header></Header>
+      <main class="d-flex justify-content-space-around"> 
         <Landing></Landing>
       </main>
       <Footer></Footer>
