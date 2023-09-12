@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Little Altar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Badge](https://img.shields.io/badge/License-MIT-lightblue.svg)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Little Altar](#little-altar)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+    - [User Story](#user-story)
+    - [Acceptance Criteria](#acceptance-criteria)
+  - [Installation](#installation)
+  - [Built With](#built-with)
+  - [Website](#website)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React application in the making where coding meets genealogy and art. A site that showcases both my website developer skills and my genealogy research.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Story
 
-### `npm test`
+                As a genealogist-programmer,
+                I want to build a strong website
+                So that I can pay respect to my ancestors and share their story with the world.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Acceptance Criteria
 
-### `npm run build`
+                GIVEN a genealogy website
+                WHEN I land at the homepage,
+                THEN I see a welcoming paragraph, a button to the genealogy page, a footer, and a header
+                WHEN I land at the genealogy section, 
+                THEN I see the names of different ancestors
+                WHEN I click on an ancestor's name,
+                THEN their story loads up on my screen
+                WHEN I look into the right top corner
+                THEN I see a header with an About section
+                WHEN I see the footer
+                THEN I have the option to checkout the developer's personal portfolio and github 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Make sure you have node.js installed in your local machine.
+2. Clone this repo or download the code. Open it with vscode.
+3. Run npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
 
-### `npm run eject`
+- REACT
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Website
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+TBD
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the MIT License license.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This specific project is not open to contribution but you are welcome to reach out with any feedback or questions. You can find my contact information in the [Questions](#questions) section.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tests
 
-### Code Splitting
+Not Applicable at this time
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Questions
 
-### Analyzing the Bundle Size
+Github Username: [tracybrtn](https://github.com/tracybrtn)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact Email: tracynburton@gmail.com
