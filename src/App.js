@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="homepage">
       <Header></Header>
-      <main class="d-flex justify-content-space-around"> 
+      <main class="d-flex justify-content-center"> 
         <Landing></Landing>
       </main>
       <Footer></Footer>
