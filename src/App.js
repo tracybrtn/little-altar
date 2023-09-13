@@ -9,7 +9,7 @@ import Landing from './components/Landing';
 
 function App() {
   return (
-    <div className="homepage">
+    <div className="homepage d-flex-column">
       <Header></Header>
       <main class="d-flex justify-content-center"> 
         <Landing></Landing>
