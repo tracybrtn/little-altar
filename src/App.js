@@ -24,14 +24,17 @@ function App() {
           element={<Home/>}
         />
         <Route 
+          path="/Charity"
+          element={<Charity/>}
+        />
+        <Route 
           path="*" 
           element={<Error/>} 
         />
       </Routes>
+      <Footer/>
     </Router>
   )
-
-  
 }
 
 
