@@ -8,8 +8,9 @@
 
 :root {
   --primary-color: #efe2ed;
-  --secondary-color: #010c12;
-  --tertiary-color: #eef4f5;
+  --secondary-color: #ed8f8f;
+  --tertiary-color: #1d000f;
+  --quaternary-color: #ffffff;
 }
 
 body {
@@ -29,7 +30,9 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
-/*HOMEPAGE*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Permanent Marker', cursive;
+}
 
 
 /*HEADER*/
@@ -41,26 +44,52 @@ header p {
   text-align: right;
 }
 
+main {
+  margin: 2.5em;
+}
+
 /*END OF HEADER */
 
+
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+
+}
 h2 {
-  font-family: 'Permanent Marker', cursive;
   color: var(--primary-color);
   opacity: 90%;
   text-align: center;
-  font-size: 3.5em
+  font-size: 3em
 }
 
 p {
   color: var(--primary-color);
 }
 
-main {
-  margin: 2.5em;
+ul {
+  column-gap: 1em;
+  justify-content: right;
+  list-style-type:none
 }
 
-/*LANDING PAGE*/
+li {
+  font-family: 'Permanent Marker', cursive;
+  color: var(--primary-color);
+}
 
+li:hover {
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+
+/*HOME PAGE*/
 .quote {
   display: flex;
   flex-direction: column;
@@ -72,7 +101,6 @@ main {
   font-size: 0.7em;
 }
 
-
 button {
   border: none;
   padding: 10px 20px;
@@ -82,7 +110,7 @@ button {
   background-color: var(--primary-color);
 }
 
-/*END OF LANDING PAGE*/
+/*END OF HOME PAGE*/
 /*FOOTER*/
 
 footer {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
             </p>
             <p class="citation">- ACOK 40: DAENERYS III. GRRM</p>
           </div>
-          <button>Meet the ancestors</button>
+          <button>
+            <Link to='/Charity'>Meet the ancestors</Link>
+          </button>
         </div>
       </div>
     </main>
