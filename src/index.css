@@ -17,7 +17,6 @@ body {
   font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   /*Background image settings*/
   background-image: url('./assets/images/vertical-landing-screen-watercolor-2.jpg');
   background-position: center center;
@@ -28,6 +27,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Permanent Marker', cursive;
+}
+
+span {
+  font-weight: 700;
+  color: var(--quaternary-color);
 }
 
 
@@ -147,4 +151,15 @@ footer p {
 
 .btn-next {
   background-color: #f89de050
+}
+
+/*ABOUT*/
+
+.about a {
+  color:var(--secondary-color);
+  font-weight: 700;
+}
+
+.about a:hover {
+  color:var(--tertiary-color);
 }
