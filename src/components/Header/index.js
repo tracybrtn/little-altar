@@ -6,7 +6,7 @@ function Header() {
     <header>
       <div>
         <nav>
-          <ul class='d-flex'>
+          <ul className='d-flex'>
             <Link to='/About'><li>About</li></Link>
             <Link to='/'><li>Main</li></Link>
           </ul>

@@ -13,9 +13,9 @@ const Charity = () => {
         <p>Charity was an incredibly resilient and hard-working woman. She worked all her life as a farm laborer. She was a mother to at least 5 children. She died in 1902, at 50 years of age. </p>
       </div>
       <div className="storytelling">
-        <button className="btn-previous">
-          <Link to='/'>Previous</Link>
-        </button>
+        <Link to='/'>
+          <button className="btn-previous">Previous</button>
+        </Link>
         <button className="btn-next">
         <Link to='/Laura'>Next</Link>
         </button>

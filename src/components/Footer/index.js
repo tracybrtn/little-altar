@@ -7,7 +7,7 @@ import GithubLogo from "../../assets/images/github-logo.png";
 function Footer() {
   return(
     <footer>
-      <div class="d-flex justify-content-center">
+      <div className="d-flex justify-content-center">
         <a
           href="https://github.com/tracybrtn"
           target="_blank"

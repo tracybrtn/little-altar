@@ -163,3 +163,19 @@ footer p {
 .about a:hover {
   color:var(--tertiary-color);
 }
+
+/*ERROR*/
+.page-error {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+}
+
+.page-error button:hover {
+  background-color: var(--secondary-color);
+}
+
+.page-error button:hover a {
+  color: var(--primary-color);
+}
