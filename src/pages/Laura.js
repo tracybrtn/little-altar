@@ -13,12 +13,16 @@ const Laura = () => {
         <p>Laura, and for what is worth Madison, was of mixed race. Although her birth circumstances and mine are completely different, as well as the way we both experience and move through the world, there is something really comforting knowing there were other mixed race people in my bloodline before I came. </p>
       </div>
       <div className="storytelling">
-        <button className="btn-previous">
-          <Link to='/Charity'>Previous</Link>
-        </button>
-        <button className="btn-next">
-          <Link to='/Pearl'>Next</Link>
-        </button>
+        <Link to='/Charity'>
+          <button className="btn-previous">
+            Previous
+          </button>
+        </Link>
+        <Link to='/Pearl'>
+          <button className="btn-next">
+            Next
+          </button>
+        </Link>
       </div>
     </main>
   );

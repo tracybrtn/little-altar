@@ -155,13 +155,17 @@ footer p {
 
 /*ABOUT*/
 
-.about a {
+.about-page a {
   color:var(--secondary-color);
   font-weight: 700;
 }
 
-.about a:hover {
+.about-page a:hover {
   color:var(--tertiary-color);
+}
+
+.about-page button {
+  align-items: center;
 }
 
 /*ERROR*/

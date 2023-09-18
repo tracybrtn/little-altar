@@ -13,12 +13,16 @@ const Pearl = () => {
         <p>Pearl’s family alongside other 6 million Black Americans was part of the Great Migration. Her family moving would mean their children would have more opportunities than working the land. Even though she is a lot closer in timeline than her predecessors Pearl took with her a mystery that I am now trying to unravel.</p>
       </div>
       <div className="storytelling">
-        <button className="btn-previous">
-          <Link to='/Laura'>Previous</Link>
-        </button>
-        <button className="btn-next">
-          <Link to='/TheEnd'>Next</Link>
-        </button>
+        <Link to='/Laura'>
+          <button className="btn-previous">
+            Previous
+          </button>
+        </Link>
+        <Link to='/TheEnd'>
+          <button className="btn-next">
+            Next
+          </button>
+        </Link>
       </div>
     </main>
   );

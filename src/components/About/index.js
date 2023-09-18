@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <main>
-      <div className="about">
+      <div className="about-page">
         <section className="about-project">
           <h1>About this Project</h1>
           <p>
@@ -92,6 +93,11 @@ const About = () => {
         <section className="about-closing">
           <p>With Love,</p>
           <p>Tracy</p>
+        </section>
+        <section className="about-section-btn d-flex justify-content-center back-btns">
+          <Link to='/'>
+            <button>Home</button>
+          </Link>
         </section>
       </div>
     </main>

@@ -13,9 +13,11 @@ const Home = () => {
             </p>
             <p className="citation">- ACOK 40: DAENERYS III. GRRM</p>
           </div>
-          <button className="start-btn">
-            <Link to='/Charity'>Meet the ancestors</Link>
-          </button>
+          <Link to='/Charity'>
+            <button className="start-btn">
+              Meet the ancestors
+            </button>
+          </Link>
         </div>
       </div>
     </main>
