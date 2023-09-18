@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -24,10 +24,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-p {
-  font-family: 'Indie Flower', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,13 +46,11 @@ main {
 
 /*END OF HEADER */
 
-
-
 h1 {
   color: var(--primary-color);
   text-align: center;
-
 }
+
 h2 {
   color: var(--primary-color);
   opacity: 90%;
@@ -102,12 +96,17 @@ a {
 }
 
 button {
-  border: none;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 10px;
   text-align: center;
   background-color: var(--primary-color);
+  font-weight: 600;
+  border-style: solid;
+}
+
+.home-btn {
+  border: none;
 }
 
 /*END OF HOME PAGE*/
@@ -122,4 +121,30 @@ footer p {
 
 .logo {
   max-height: 30px;
+}
+
+/*PROFILES*/
+
+.storytelling {
+  display: flex;
+  justify-content: space-around;
+}
+
+.storytelling button {
+  width: 7em;
+  height: 4em;
+  border-color: #0a0a0a;
+  border-width: 4px;
+}
+
+.storytelling a {
+  color: var(--primary-color);
+}
+
+.btn-previous {
+  background-color: #3518dc18;
+}
+
+.btn-next {
+  background-color: #f89de050
 }

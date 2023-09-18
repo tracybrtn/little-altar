@@ -13,7 +13,7 @@ const Home = () => {
             </p>
             <p class="citation">- ACOK 40: DAENERYS III. GRRM</p>
           </div>
-          <button>
+          <button className="home-btn">
             <Link to='/Charity'>Meet the ancestors</Link>
           </button>
         </div>
