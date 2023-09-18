@@ -1,10 +1,6 @@
 /*Import Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Moonrocks&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Rubik+Moonrocks&family=Staatliches&display=swap');
-
-
 
 :root {
   --primary-color: #efe2ed;
@@ -17,53 +13,48 @@ body {
   font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   /*Background image settings*/
   background-image: url('./assets/images/vertical-landing-screen-watercolor-2.jpg');
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+
+  margin: 0 1.3em 0 1.3em;
 }
 
+/*.home-page body {
+  
+}*/
+
+
+
+/*FONTS*/
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Permanent Marker', cursive;
 }
 
-span {
-  font-weight: 700;
-  color: var(--quaternary-color);
-}
-
-
-/*HEADER*/
-header {
-  margin-top: 1em;
-  margin-right: 1em;
-}
-header p {
-  text-align: right;
-}
-
-main {
-  margin: 2.5em;
-}
-
-/*END OF HEADER */
-
 h1 {
-  color: var(--primary-color);
-  text-align: center;
-}
-
-h2 {
   color: var(--primary-color);
   opacity: 90%;
   text-align: center;
   font-size: 3em
 }
 
+h2 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
 p {
   color: var(--primary-color);
+  font-size: 1.3em;
+}
+
+span {
+  font-weight: 700;
+  color: var(--quaternary-color);
 }
 
 ul {
@@ -83,21 +74,8 @@ li:hover {
 
 a {
   text-decoration: none;
-  color: var(--tertiary-color);
 }
-
-
-/*HOME PAGE*/
-.quote {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  row-gap: 0em;
-}
-
-.citation {
-  font-size: 0.7em;
-}
+/*END OF FONTS*/
 
 button {
   padding: 10px 20px;
@@ -109,16 +87,24 @@ button {
   border-style: solid;
 }
 
-.start-btn {
-  border: none;
+/*COMPONENTS*/
+/*HEADER*/
+header {
+  margin-top: 1em;
+  margin-right: 1em;
 }
 
-/*END OF HOME PAGE*/
+header p {
+  text-align: right;
+}
+
+/*END OF HEADER */
 /*FOOTER*/
 
 footer {
   margin-top: 20vh;
 }
+
 footer p {
   text-align: center;
 }
@@ -126,9 +112,38 @@ footer p {
 .logo {
   max-height: 30px;
 }
+/*END OF FOOTER*/
 
-/*PROFILES*/
+/*ABOUT*/
+.about-page a {
+  color:var(--secondary-color);
+  font-weight: 700;
+}
 
+.about-page a:hover {
+  color:var(--tertiary-color);
+}
+/*end of ABOUT*/
+/*BACK BUTTONS*/
+.back-btns {
+  column-gap: 1em;
+}
+
+.back-btns button {
+  width: 7em;
+  height: 4em;
+}
+
+.back-btns button:hover {
+  background-color: var(--secondary-color);
+}
+
+.back-btns button:hover a {
+  color: var(--primary-color);
+}
+/*end of BACK BTNS*/
+
+/*STORYTELLING*/
 .storytelling {
   display: flex;
   justify-content: space-around;
@@ -145,52 +160,47 @@ footer p {
   color: var(--primary-color);
 }
 
-.btn-previous {
+
+/*E N D  O F  C O M P O N E N T S*/
+
+/*PAGES*/  /*PAGES*/  /*PAGES*/  /*PAGES*/  /*PAGES*/  /*PAGES*/
+/*HOMEPAGE*/
+
+
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 0em;
+}
+
+.citation {
+  font-size: 0.9em;
+}
+
+.start-btn {
+  border: none;
+  font-size: 1.3em;
+  padding: 1em;
+  background-color:#efe2edad
+}
+
+.start-btn:hover {
+  background-color:var(--primary-color)
+}
+/*END OF HOME PAGE*/
+
+/*PROFILE PAGES*/
+.profile-page button {
+  color: var(--primary-color);
   background-color: #3518dc18;
 }
 
-.btn-next {
-  background-color: #f89de050
-}
-
-/*ABOUT*/
-
-.about-page a {
-  color:var(--secondary-color);
-  font-weight: 700;
-}
-
-.about-page a:hover {
-  color:var(--tertiary-color);
-}
-
-.about-page button {
-  align-items: center;
-}
-
-/*ERROR*/
+/*ERROR PAGE*/
 .pages-error-end {
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 50vh;
-}
-
-/*BACK BUTTONS*/
-
-.back-btns {
-  column-gap: 1em;
-}
-
-.back-btns button {
-  width: 7em;
-  height: 4em;
-}
-
-.back-btns button:hover {
-  background-color: var(--secondary-color);
-}
-
-.back-btns button:hover a {
-  color: var(--primary-color);
 }

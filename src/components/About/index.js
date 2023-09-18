@@ -19,7 +19,7 @@ const About = () => {
             by me.
           </p>
           <p>
-            It is called <span>Little Altar</span> because of John Little being the patriarch of the family. But it is dedicated to the matriarchs.So thanks for the last name, John!
+            It is called <span>Little Altar</span> because of John Little being the patriarch of the family. But it is dedicated to the matriarchs. So thanks for the last name, John!
           </p>
         </section>
         <section className="about-me">
