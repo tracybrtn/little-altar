@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <main className="home-page d-flex flex-column align-items-center">
+    <main className="home-page d-flex flex-column align-items-center justify-content-center">
       <section>
         <h1>The Little Altar</h1>
         <div className="quote">

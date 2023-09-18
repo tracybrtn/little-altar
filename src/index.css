@@ -5,7 +5,7 @@
 :root {
   --primary-color: #efe2ed;
   --secondary-color: #ed8f8f;
-  --tertiary-color: #1d000f;
+  --tertiary-color:  #e78fed28;
   --quaternary-color: #ffffff;
 }
 
@@ -23,12 +23,6 @@ body {
 
   margin: 0 1.3em 0 1.3em;
 }
-
-/*.home-page body {
-  
-}*/
-
-
 
 /*FONTS*/
 h1, h2, h3, h4, h5, h6 {
@@ -83,8 +77,9 @@ button {
   border-radius: 10px;
   text-align: center;
   background-color: var(--primary-color);
+  color: #0a0a0a;
   font-weight: 600;
-  border-style: solid;
+  border-style: none;
 }
 
 /*COMPONENTS*/
@@ -134,13 +129,6 @@ footer p {
   height: 4em;
 }
 
-.back-btns button:hover {
-  background-color: var(--secondary-color);
-}
-
-.back-btns button:hover a {
-  color: var(--primary-color);
-}
 /*end of BACK BTNS*/
 
 /*STORYTELLING*/
@@ -180,22 +168,14 @@ footer p {
 }
 
 .start-btn {
-  border: none;
   font-size: 1.3em;
-  padding: 1em;
-  background-color:#efe2edad
+  padding: 0.8em;
 }
 
-.start-btn:hover {
-  background-color:var(--primary-color)
-}
 /*END OF HOME PAGE*/
 
 /*PROFILE PAGES*/
-.profile-page button {
-  color: var(--primary-color);
-  background-color: #3518dc18;
-}
+
 
 /*ERROR PAGE*/
 .pages-error-end {
@@ -203,4 +183,53 @@ footer p {
   align-items: center;
   text-align: center;
   min-height: 50vh;
+}
+
+/*Media Queries for Laptop*/
+@media only screen and (min-width: 992px) {
+  body{
+    margin: 0vh 30vh 0vh 30vh;
+  }
+
+  p {
+    font-size: 1.6em;
+  }
+
+  button {
+    background-color: #3518dc18;
+    color: var(--primary-color);
+    border: solid;
+    border-color: #0a0a0a;
+    border-width: 4px;
+    font-size: 1.8em;
+  }
+
+  /*Homepage*/
+  .home-page h1 {
+    margin: 0.5em 0 0.8em 0;
+    font-size: 4em;
+  }
+  .quote{
+    margin: 2em;
+  }
+
+  .start-btn {
+    font-size: 1.8em;
+  }
+
+  /*About*/
+  li {
+    font-size: 1.5em;
+  }
+
+  /**/
+  .storytelling {
+    justify-content: center;
+    column-gap: 2em;
+  }
+
+  button:hover {
+    font-size: 2em;
+    background-color: #e78fed28;
+  }
 }
