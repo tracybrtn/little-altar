@@ -9,6 +9,7 @@ import Charity from "./pages/Charity";
 import Laura from "./pages/Laura";
 import Pearl from "./pages/Pearl";
 import Error from "./pages/Error";
+import End from "./pages/End";
 
 //import components
 import Header from "./components/Header";
@@ -37,6 +38,10 @@ function App() {
         <Route 
           path="/Pearl"
           element={<Pearl/>}
+        />
+        <Route
+          path="/TheEnd"
+          element={<End/>}
         />
         <Route 
           path="/about"

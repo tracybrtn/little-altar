@@ -17,7 +17,7 @@ const Pearl = () => {
           <Link to='/Laura'>Previous</Link>
         </button>
         <button className="btn-next">
-          <Link to='/'>Next</Link>
+          <Link to='/TheEnd'>Next</Link>
         </button>
       </div>
     </main>

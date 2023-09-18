@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import BackBtns from "../components/Back-Btns";
 
 const Error = () => {
   return (
-    <main className='page-error d-flex flex-column'>
+    <main className='pages-error-end d-flex flex-column'>
       <section>
         <div>
           <h1>
@@ -13,10 +13,8 @@ const Error = () => {
             Page can't be found.
           </p>
         </div>
-        <Link to='/'>
-          <button>Home</button>
-        </Link>
       </section>
+      <BackBtns/>
     </main>
   );
 };

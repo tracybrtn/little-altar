@@ -109,7 +109,7 @@ button {
   border-style: solid;
 }
 
-.home-btn {
+.start-btn {
   border: none;
 }
 
@@ -165,17 +165,28 @@ footer p {
 }
 
 /*ERROR*/
-.page-error {
+.pages-error-end {
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 50vh;
 }
 
-.page-error button:hover {
+/*BACK BUTTONS*/
+
+.back-btns {
+  column-gap: 1em;
+}
+
+.back-btns button {
+  width: 7em;
+  height: 4em;
+}
+
+.back-btns button:hover {
   background-color: var(--secondary-color);
 }
 
-.page-error button:hover a {
+.back-btns button:hover a {
   color: var(--primary-color);
 }
