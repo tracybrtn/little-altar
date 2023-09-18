@@ -33,10 +33,10 @@ const Charity = () => {
         </p>
       </section>
       <div className="storytelling">
-        <Link to='/'>
+        <Link to='/little-altar'>
           <button className="btn-previous">Previous</button>
         </Link>
-        <Link to='/Laura'>
+        <Link to='/laura'>
           <button className="btn-next">
             Next
           </button>
