@@ -36,7 +36,7 @@ const Charity = () => {
         <Link to='/little-altar'>
           <button className="btn-previous">Previous</button>
         </Link>
-        <Link to='/laura'>
+        <Link to='/little-altar/laura'>
           <button className="btn-next">
             Next
           </button>

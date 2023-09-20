@@ -15,7 +15,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <Link to='/charity'>
+      <Link to='/little-altar/charity'>
         <button className="start-btn">
           Meet the ancestors
         </button>
