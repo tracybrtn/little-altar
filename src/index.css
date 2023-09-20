@@ -116,7 +116,10 @@ footer p {
 }
 
 .about-page a:hover {
-  color:var(--tertiary-color);
+  color:var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 10%;
+  
 }
 /*end of ABOUT*/
 /*BACK BUTTONS*/

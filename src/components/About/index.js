@@ -62,31 +62,31 @@ const About = () => {
             in St. Louis, MO. That sparked something within me, so as soon as I had the opportunity I joined my dad on his genealogy research.
           </p>
           <p>
-            If you would like to check out my other projects you can take a look at my 
+            If you would like to check out my other projects you can take a look at my&nbsp;
               <a 
                 href="https://tracybrtn.github.io/react-portfolio/" 
                 target="_blank" 
-                rel="noreferrer">&nbsp;portfolio
+                rel="noreferrer">portfolio
               </a>
             .
           </p>
-          <p>You can also reach out to me on
+          <p>You can also reach out to me on&nbsp;
             <a 
               href="https://www.linkedin.com/in/tracybrtn/" 
               target="_blank" 
               rel="noreferrer">
-              &nbsp;LinkedIn
-            </a>,
+              LinkedIn
+            </a>,&nbsp;
             <a 
               href="https://github.com/tracybrtn" 
               target="_blank" 
               rel="noreferrer">
-              &nbsp;Github
+              Github
             </a>
-            , or by 
+            , or by&nbsp;
             <a 
               href="mailto:tracynburton@gmail.com"> 
-              &nbsp;sending me an email
+              sending me an email
             </a>
           .</p>
         </section>
@@ -95,7 +95,7 @@ const About = () => {
           <p>Tracy</p>
         </section>
         <section className="about-section-btn d-flex justify-content-center back-btns">
-          <Link to='/'>
+          <Link to='/little-altar'>
             <button>Home</button>
           </Link>
         </section>

@@ -37,7 +37,7 @@ const Laura = () => {
           </span>
           . Although her birth circumstances and mine are completely different, as well as the way we both experience and move through the world, there is 
           <span>
-            &nbsp;something really comforting
+            &nbsp;something really comforting&nbsp;
           </span>
            knowing there were other mixed race people in my bloodline before I came.
         </p>
