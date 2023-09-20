@@ -14,7 +14,9 @@ const About = () => {
             <a 
               href="https://www.gimp.org/" 
               target="_blank" 
-              rel="noreferrer">&nbsp;GIMP&nbsp;
+              rel="noreferrer"
+              className="link">
+                &nbsp;GIMP&nbsp;
             </a>
             by me.
           </p>
@@ -56,7 +58,8 @@ const About = () => {
             <a
               href="https://www.greenwoodstl.org/"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+              className="link">
               &nbsp;Historic Greenwood Cemetery&nbsp;
             </a>
             in St. Louis, MO. That sparked something within me, so as soon as I had the opportunity I joined my dad on his genealogy research.
@@ -66,7 +69,9 @@ const About = () => {
               <a 
                 href="https://tracybrtn.github.io/react-portfolio/" 
                 target="_blank" 
-                rel="noreferrer">portfolio
+                rel="noreferrer"
+                className="link">
+                  portfolio
               </a>
             .
           </p>
@@ -74,18 +79,21 @@ const About = () => {
             <a 
               href="https://www.linkedin.com/in/tracybrtn/" 
               target="_blank" 
-              rel="noreferrer">
+              rel="noreferrer"
+              className="link">
               LinkedIn
             </a>,&nbsp;
             <a 
               href="https://github.com/tracybrtn" 
               target="_blank" 
-              rel="noreferrer">
+              rel="noreferrer"
+              className="link">
               Github
             </a>
             , or by&nbsp;
             <a 
-              href="mailto:tracynburton@gmail.com"> 
+              href="mailto:tracynburton@gmail.com"
+              className="link"> 
               sending me an email
             </a>
           .</p>
@@ -94,10 +102,12 @@ const About = () => {
           <p>With Love,</p>
           <p>Tracy</p>
         </section>
-        <section className="about-section-btn d-flex justify-content-center back-btns">
-          <Link to='/little-altar'>
-            <button>Home</button>
-          </Link>
+        <section className="about-section-btn d-flex justify-content-center align-items-center back-btns">
+          <div className="btn-container">
+            <Link to='/little-altar'>
+              <button>Home</button>
+            </Link>
+          </div>
         </section>
       </div>
     </main>

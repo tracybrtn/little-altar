@@ -32,7 +32,7 @@ const Charity = () => {
           and hard-working woman. She worked all her life as a farm laborer. She was a mother to at least 5 children. She died in 1902, at 50 years of age.
         </p>
       </section>
-      <div className="storytelling">
+      <div className="storytelling btn-container">
         <Link to='/little-altar'>
           <button className="btn-previous">Previous</button>
         </Link>

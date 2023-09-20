@@ -43,7 +43,7 @@ const Pearl = () => {
           </span>
         .</p>
       </section>
-      <div className="storytelling">
+      <div className="storytelling btn-container">
         <Link to='/little-altar/laura'>
           <button className="btn-previous">
             Previous
