@@ -1,6 +1,6 @@
 import * as React from "react"
-
-const SvgComponent = (props) => (
+const Cloud1 = (props) => (
+  <div className="cloud-container">
     <svg
       id="my-svg"
       xmlns="http://www.w3.org/2000/svg"
@@ -21,6 +21,7 @@ const SvgComponent = (props) => (
         transform="translate(-16.913 -54.817)"
       />
     </svg>
+  </div>
 )
 
-export default SvgComponent;
+export default Cloud1;

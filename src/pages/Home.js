@@ -1,10 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Cloud1 from "../components/Cloud-1";
+import Cloud2 from "../components/Cloud-2";
+
 
 const Home = () => {
+    /*After the loading screen runs the webpage will be returned as usual */
   return (
     <main className="home-page d-flex flex-column align-items-center justify-content-center">
       <section>
+        <Cloud1 id='cloud-1' className='floating'/>
         <h1>The Little Altar</h1>
         <div className="quote">
           <p className="quote-text">

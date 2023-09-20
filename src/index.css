@@ -89,10 +89,65 @@ button {
 /*COMPONENTS*/
 /*Loading*/
 
+.floating { 
+  animation-name: floating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 5px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+
+/*#cloud-2 {
+  animation-name: byeCloud;
+  animation-duration: 3s;
+  animation-direction: linear;
+  animation-fill-mode: forwards;
+}
+
+/*
+@keyframes byeCloud {
+  from {
+    left: 100px;
+  }
+
+  to {
+    left: 150px;
+  }
+}
+*/
+
+.svg-container {
+  display: block;
+  position: absolute;
+}
+
 svg {
   width: 100%; 
   height: auto;
+  position: relative;
 }
+
+.cloud-container {
+  height: 0px;
+  display: block;
+  position: absolute;
+}
+
+#cloud-1 {
+  top: -50px;
+}
+
+#cloud-2 {
+  top: -50px;
+}
+
+
 
 /*HEADER*/
 header {
