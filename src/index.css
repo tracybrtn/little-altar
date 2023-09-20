@@ -9,17 +9,20 @@
   --quinary-color:  #0a0a0a;
 }
 
-body {
-  font-family: 'Indie Flower', cursive;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
+html, body {
   /*Background image settings*/
   background-image: url('./assets/images/vertical-landing-screen-watercolor-2.jpg');
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   margin: 0 1.3em 0 1.3em;
   min-height: 100vh;
 }
@@ -84,6 +87,13 @@ button {
 }
 
 /*COMPONENTS*/
+/*Loading*/
+
+svg {
+  width: 100%; 
+  height: auto;
+}
+
 /*HEADER*/
 header {
   margin-top: 1em;

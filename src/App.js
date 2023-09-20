@@ -1,5 +1,5 @@
 //import React
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import router
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -17,8 +17,24 @@ import Pearl from "./pages/Pearl";
 //import components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Loading from "./components/Loading/Loading";
 
 function App() {
+
+  /*Introduce loading screen with useState */
+  /*Loading screen is on */
+  const [loading, setLoading] = useState(true)
+    useEffect(() => {
+      /*Loading screen will disappear after a 3 second timer*/
+      setTimeout(() => setLoading(false), 3000)
+    }, [])
+
+    /*If loading, which will be true when the page is loaded for the first time or refreshed, then show loading component*/
+    if (loading) {
+      return <Loading />
+    }
+
+    /*After the loading screen runs the webpage will be returned as usual */
   return (
     <Router>
       <Header/>
