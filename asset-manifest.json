@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/little-altar/static/css/main.89d482ec.css",
-    "main.js": "/little-altar/static/js/main.f7e1fd24.js",
+    "main.js": "/little-altar/static/js/main.02f7bebf.js",
     "static/js/787.09a7b098.chunk.js": "/little-altar/static/js/787.09a7b098.chunk.js",
     "static/media/vertical-landing-screen-watercolor-2.jpg": "/little-altar/static/media/vertical-landing-screen-watercolor-2.7df0c40b5df7f5895d3d.jpg",
     "static/media/github-logo.png": "/little-altar/static/media/github-logo.ad22d33059b5c251882e.png",
     "index.html": "/little-altar/index.html",
     "main.89d482ec.css.map": "/little-altar/static/css/main.89d482ec.css.map",
-    "main.f7e1fd24.js.map": "/little-altar/static/js/main.f7e1fd24.js.map",
+    "main.02f7bebf.js.map": "/little-altar/static/js/main.02f7bebf.js.map",
     "787.09a7b098.chunk.js.map": "/little-altar/static/js/787.09a7b098.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89d482ec.css",
-    "static/js/main.f7e1fd24.js"
+    "static/js/main.02f7bebf.js"
   ]
 }
