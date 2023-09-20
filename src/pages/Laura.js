@@ -42,7 +42,7 @@ const Laura = () => {
            knowing there were other mixed race people in my bloodline before I came.
         </p>
       </section>
-      <div className="storytelling btn-container">
+      <div className="d-flex justify-content-center btn-container">
         <Link to='/little-altar/charity'>
           <button className="btn-previous">
             Previous

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Charity = () => {
+
   return (
     <main className="profile-page">
       <section>
@@ -32,7 +33,7 @@ const Charity = () => {
           and hard-working woman. She worked all her life as a farm laborer. She was a mother to at least 5 children. She died in 1902, at 50 years of age.
         </p>
       </section>
-      <div className="storytelling btn-container">
+      <div className="d-flex justify-content-center btn-container">
         <Link to='/little-altar'>
           <button className="btn-previous">Previous</button>
         </Link>

@@ -43,7 +43,7 @@ const Pearl = () => {
           </span>
         .</p>
       </section>
-      <div className="storytelling btn-container">
+      <div className="d-flex justify-content-center btn-container">
         <Link to='/little-altar/laura'>
           <button className="btn-previous">
             Previous
