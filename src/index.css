@@ -21,7 +21,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 1.3em 0 1.3em;
-
+  min-height: 100vh;
 }
 
 /*FONTS*/
@@ -196,6 +196,8 @@ button:hover a {
 @media only screen and (min-width: 992px) {
   body{
     margin: 0vh 30vh 0vh 30vh;
+    display: flex;
+    flex-direction: column;
   }
 
   p {
@@ -251,7 +253,7 @@ button:hover a {
 
   /*FOOTER*/
   footer {
-    margin-top: auto;
+    margin-top: 10vh;
   }
 
   .logo {
@@ -271,8 +273,8 @@ button:hover a {
   }
 
   /*BUTTONS*/
+
   button:hover {
-    font-size: 2em;
     background-color: #f469fe6c;
     -webkit-box-shadow:0px 0px 169px 15px rgba(233,144,235,0.74);
     -moz-box-shadow: 0px 0px 169px 15px rgba(233,144,235,0.74);
@@ -284,6 +286,11 @@ button:hover a {
     height: 140px;
     align-items: center;
   }
+
+  .start-btn:hover, .about-btn:hover {
+    font-size: 2em;
+  }
+
 
   .back-btns-container {
     display: flex;
