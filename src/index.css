@@ -1,5 +1,4 @@
 /*Import Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Rubik+Moonrocks&family=Staatliches&display=swap');
 
 :root {
@@ -7,6 +6,7 @@
   --secondary-color: #ed8f8f;
   --tertiary-color:  #e78fed28;
   --quaternary-color: #ffffff;
+  --quinary-color:  #0a0a0a;
 }
 
 body {
@@ -69,6 +69,7 @@ li:hover {
 a {
   text-decoration: none;
 }
+
 /*END OF FONTS*/
 
 button {
@@ -77,7 +78,7 @@ button {
   border-radius: 10px;
   text-align: center;
   background-color: var(--primary-color);
-  color: #0a0a0a;
+  color: var(--quinary-color);
   font-weight: 600;
   border-style: none;
 }
@@ -109,23 +110,6 @@ footer p {
 }
 /*END OF FOOTER*/
 
-/*ABOUT*/
-.about-page a {
-  color:var(--secondary-color);
-  font-weight: 700;
-}
-
-.link:hover {
-  color:var(--primary-color);
-  background-color: var(--secondary-color);
-  border-radius: 10%;
-}
-
-button:hover a {
-  background-color: none;
-}
-
-/*end of ABOUT*/
 /*BACK BUTTONS*/
 .back-btns-container {
   column-gap: 1em;
@@ -147,7 +131,7 @@ button:hover a {
 .storytelling button {
   width: 7em;
   height: 4em;
-  border-color: #0a0a0a;
+  border-color: var(--quinary-color);
   border-width: 4px;
 }
 
@@ -159,9 +143,26 @@ button:hover a {
 /*E N D  O F  C O M P O N E N T S*/
 
 /*PAGES*/  /*PAGES*/  /*PAGES*/  /*PAGES*/  /*PAGES*/  /*PAGES*/
+
+/*ABOUT*/
+.about-page a {
+  color:var(--secondary-color);
+  font-weight: 700;
+}
+
+.link:hover {
+  color:var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 10%;
+}
+
+button:hover a {
+  background-color: none;
+}
+
+/*end of ABOUT*/
+
 /*HOMEPAGE*/
-
-
 
 .quote {
   display: flex;
@@ -208,7 +209,7 @@ button:hover a {
     background-color: #3518dc18;
     color: var(--primary-color);
     border: solid;
-    border-color: #0a0a0a;
+    border-color: var(--quinary-color);
     border-width: 4px;
     font-size: 1.8em;
   }
@@ -287,10 +288,9 @@ button:hover a {
     align-items: center;
   }
 
-  .start-btn:hover, .about-btn:hover {
+  .start-btn:hover, .about-page button:hover {
     font-size: 2em;
   }
-
 
   .back-btns-container {
     display: flex;

@@ -102,10 +102,10 @@ const About = () => {
           <p>With Love,</p>
           <p>Tracy</p>
         </section>
-        <section className="about-section-btn d-flex justify-content-center align-items-center back-btns">
+        <section className="d-flex justify-content-center align-items-center back-btns">
           <div className="btn-container">
             <Link to='/little-altar'>
-              <button className="about-btn">Home</button>
+              <button>Home</button>
             </Link>
           </div>
         </section>
