@@ -53,7 +53,7 @@ React application in the making where coding meets genealogy and art. A site tha
 
 ## Website
 
-[https://stark-eyrie-99525-f1b0addb3775.herokuapp.com/](https://stark-eyrie-99525-f1b0addb3775.herokuapp.com/)
+[https://tracybrtn.github.io/little-altar/](https://tracybrtn.github.io/little-altar/)
 
 ## License
 
