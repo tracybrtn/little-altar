@@ -43,12 +43,12 @@ const Laura = () => {
         </p>
       </section>
       <div className="storytelling">
-        <Link to='/charity'>
+        <Link to='/little-altar/charity'>
           <button className="btn-previous">
             Previous
           </button>
         </Link>
-        <Link to='/pearl'>
+        <Link to='/little-altar/pearl'>
           <button className="btn-next">
             Next
           </button>

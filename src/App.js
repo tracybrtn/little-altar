@@ -28,28 +28,24 @@ function App() {
           element={<Home/>}
         />
         <Route 
-          path="/charity"
+          path="/little-altar/charity"
           element={<Charity/>}
         />
         <Route 
-          path="/laura"
+          path="/little-altar/laura"
           element={<Laura/>}
         />
         <Route 
-          path="/pearl"
+          path="/little-altar/pearl"
           element={<Pearl/>}
         />
         <Route
-          path="/end"
+          path="/little-altar/end"
           element={<End/>}
         />
         <Route 
-          path="/about"
+          path="/little-altar/about"
           element={<About/>}
-        />
-        <Route
-          path="/"
-          element={<Home/>}
         />
         <Route 
           path="*" 

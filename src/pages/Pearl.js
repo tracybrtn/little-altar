@@ -44,12 +44,12 @@ const Pearl = () => {
         .</p>
       </section>
       <div className="storytelling">
-        <Link to='/laura'>
+        <Link to='/little-altar/laura'>
           <button className="btn-previous">
             Previous
           </button>
         </Link>
-        <Link to='/end'>
+        <Link to='/little-altar/end'>
           <button className="btn-next">
             Next
           </button>

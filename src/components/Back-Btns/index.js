@@ -7,7 +7,7 @@ const BackBtns = () => {
       <Link to='/little-altar'>
         <button className="home-btn">Home</button>
       </Link>
-      <Link to='/about'>
+      <Link to='/little-altar/about'>
         <button className="about-btn">About</button>
       </Link>
     </section>

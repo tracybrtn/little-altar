@@ -7,8 +7,8 @@ function Header() {
       <div>
         <nav>
           <ul className='d-flex'>
-            <Link to='/About'><li>About</li></Link>
-            <Link to='/'><li>Main</li></Link>
+            <Link to='/little-altar/about'><li>About</li></Link>
+            <Link to='/little-altar'><li>Main</li></Link>
           </ul>
         </nav>
       </div>
